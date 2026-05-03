@@ -71,7 +71,7 @@ export default function Hero() {
           <div className="flex items-center gap-3 mb-8 animate-fade-up" style={{ animationDelay: '0.1s' }}>
             <div className="h-px w-12 bg-gold-500" />
             <span className="text-gold-400 text-xs uppercase tracking-[0.25em] font-medium">
-              New Builder Homes 2024
+              New Builder Homes 2026
             </span>
           </div>
 
@@ -99,7 +99,7 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row gap-4 mb-20 animate-fade-up" style={{ animationDelay: '0.6s' }}>
             <a
               href="#properties"
-              className="group px-8 py-4 bg-gold-500 hover:bg-gold-400 text-stone-950 font-medium rounded transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_rgba(201,162,39,0.4)] flex items-center gap-2"
+              className="group px-8 py-4 bg-gold-500 hover:bg-gold-400  font-medium rounded transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_rgba(201,162,39,0.4)] flex items-center gap-2"
             >
               Explore Properties
               <span className="group-hover:translate-x-1 transition-transform">→</span>
