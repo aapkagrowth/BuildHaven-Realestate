@@ -131,3 +131,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.modern-glow {
+  background: linear-gradient(90deg, #c9a96e, #f5d27a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  text-shadow:
+    0 0 10px rgba(201,162,39,0.5),
+    0 0 30px rgba(201,162,39,0.3);
+}

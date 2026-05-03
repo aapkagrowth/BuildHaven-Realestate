@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -32,6 +33,8 @@ export default function Navbar() {
           z-index: 100;
           transition: all 0.4s ease;
           padding: 24px 0;
+          background-color: rgba(10, 10, 8, 0.6); /* fallback for testing */
+          
         }
         .navbar.scrolled {
           background: rgba(10, 10, 8, 0.92);
@@ -72,7 +75,7 @@ export default function Navbar() {
           font-weight: 400;
           letter-spacing: 0.12em;
           text-transform: uppercase;
-          color: rgba(255,255,255,0.62);
+          color: rgba(255,255,255,0.8);
           text-decoration: none;
           transition: color 0.25s ease;
           position: relative;
@@ -175,6 +178,13 @@ export default function Navbar() {
       <nav className={`navbar${scrolled ? " scrolled" : ""}`}>
         <div className="navbar-inner">
           <Link href="/" className="nav-logo">
+           {/* <Image
+              src="/image.png"
+              alt="Logo"
+              width={150}
+              height={150}
+              style={{ display: "inline-block", verticalAlign: "middle" }}
+            /> */}
             Build<span>Haven</span>
           </Link>
           <ul className="nav-links">
